@@ -48,7 +48,22 @@ All requisites should be available for your distribution. The most important are
      
      apt install git
      
-* [Docker](https://docs.docker.com/engine/installation/)
+* [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+
+    1、Uninstall old versions:
+    
+    sudo apt-get remove docker docker-engine docker.io containerd runc
+    
+    2、Install packages to allow apt to use a repository over HTTPS:
+    
+    sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+    
+    
 * [Docker Compose](https://docs.docker.com/compose/install/)
 
 Check if `docker-compose` is already installed by entering the following command : 
