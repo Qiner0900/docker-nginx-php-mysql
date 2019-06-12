@@ -41,7 +41,9 @@ For now, this project has been mainly created for Unix `(Linux/MacOS)`. Perhaps 
 All requisites should be available for your distribution. The most important are :
 
 * [Git](https://git-scm.com/downloads)
-     在Ubuntu 18.04上安装Git
+
+     # 在Ubuntu 18.04上安装Git
+     
      apt-get update -y
      
      apt-get upgrade -y
