@@ -65,6 +65,10 @@ On Ubuntu and Debian these are available in the meta-package build-essential. On
 ```sh
 sudo apt install build-essential
 ```
+### 在Ubuntu 18.04上安装Git
+apt-get update -y
+apt-get upgrade -y
+apt install git
 
 ### Images to use
 
