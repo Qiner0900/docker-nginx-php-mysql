@@ -1,6 +1,6 @@
 # Nginx PHP MySQL [![Build Status](https://travis-ci.org/nanoninja/docker-nginx-php-mysql.svg?branch=master)](https://travis-ci.org/nanoninja/docker-nginx-php-mysql) [![GitHub version](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql.svg)](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql)
 
-Docker running Nginx, PHP-FPM, Composer, MySQL
+Docker running Nginx, PHP-FPM, Composer, MySQL on Ubuntu 18.04
 
 ## Overview
 
@@ -41,8 +41,6 @@ For now, this project has been mainly created for Unix `(Linux/MacOS)`. Perhaps 
 All requisites should be available for your distribution. The most important are :
 
 * [Git](https://git-scm.com/downloads)
-
-     ###### 在Ubuntu 18.04上安装Git
      
      apt-get update -y
      
@@ -90,8 +88,7 @@ This project use the following ports :
 
 | Server     | Port |
 |------------|------|
-| MySQL      | 8989 |
-| PHPMyAdmin | 8080 |
+| MySQL      | 8080 |
 | Nginx      | 8000 |
 | Nginx SSL  | 3000 |
 
